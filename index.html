@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Panduan Hukum Islam Harian</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(270deg, #f5f7fa, #c3cfe2);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+            z-index: 2;
+        }
+
+        header {
+            background-color: #34495e;
+            color: #fff;
+            height: 175px; /* Fixed height */
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120px; /* Increased width */
+            height: auto;
+        }
+
+        h1, h2 {
+            color: #34495e;
+            margin: 0;
+        }
+
+        h3 {
+            color: #2c3e50;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        .content p, .content ul {
+            font-size: 16px;
+        }
+
+        .index {
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            white-space: nowrap;
+            margin: 10px auto;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .index a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #2c3e50;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .index a:hover {
+            background: #1a252f;
+        }
+
+        .animated-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://your-correct-image-url.jpg') repeat-x;
+            animation: moveBackground 30s linear infinite;
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        @keyframes moveBackground {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+
+        footer {
+            border-radius: 0 0 10px 10px;
+            margin-top: 20px;
+            background-color: #34495e;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 2;
+        }
+
+        /* Accessibility and Responsive Design */
+        @media (max-width: 768px) {
+            .index a {
+                padding: 8px 16px;
+                margin: 0 5px;
+            }
+        }
+
+        /* Improved Accessibility */
+        body, button, input, select, textarea {
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+<div class="animated-background"></div>
+<header>
+    <img src="https://i.imgur.com/qsxGEoh.png" alt="Logo" class="logo">
+</header>
+<div class="index">
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#misi">Misi Kami</a>
+    <a href="#panduan">Contoh Panduan Harian</a>
+    <a href="#tim">Tim Kami</a>
+</div>
+<div class="container">
+    <div class="content" id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>
+            Selamat datang di Panduan Hukum Islam Harian, sebuah platform yang menyediakan panduan sederhana dan praktis mengenai hukum-hukum Islam yang relevan dalam kehidupan sehari-hari. Kami fokus untuk memberikan informasi yang mudah dipahami guna membantu umat Muslim menjalankan ajaran Islam dalam rutinitas harian mereka.
+        </p>
+    </div>
+    <div class="content" id="misi">
+        <h3>Misi Kami</h3>
+        <p>
+            Misi kami adalah menjadi sumber informasi yang dapat diandalkan dan sederhana untuk panduan hukum Islam sehari-hari. Kami menyediakan penjelasan yang jelas dan ringkas mengenai berbagai aspek kehidupan, seperti ibadah, transaksi, dan etika.
+        </p>
+    </div>
+    <div class="content" id="panduan">
+        <h3>Contoh Panduan Harian</h3>
+        <ul>
+            <li><strong>Shalat:</strong> Panduan sederhana mengenai waktu dan tata cara shalat lima waktu.</li>
+            <li><strong>Puasa:</strong> Informasi dasar tentang puasa wajib dan sunnah.</li>
+            <li><strong>Transaksi:</strong> Etika dalam berinteraksi dan berdagang menurut Islam.</li>
+            <li><strong>Adab Harian:</strong> Cara berperilaku sehari-hari yang sesuai dengan ajaran Islam.</li>
+        </ul>
+    </div>
+    <div class="content" id="tim">
+        <h3>Tim Kami</h3>
+        <p>
+            Kami adalah tim yang terdiri dari santri Pondok Pesantren Alkhairiyah, yang berdedikasi untuk menyebarkan pengetahuan Islam yang praktis dan dapat diakses. Dengan bimbingan para ulama, kami berkomitmen untuk menyediakan informasi yang akurat dan relevan.
+        </p>
+    </div>
+</div>
+<footer>
+    &copy; 2024 Panduan Hukum Islam Harian Simple AlKhairiyah. Semua Hak Dilindungi.
+</footer>
+</body>
+</html>
